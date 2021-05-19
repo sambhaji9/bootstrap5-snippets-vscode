@@ -1,0 +1,22 @@
+{
+    "Bootstrap 5 alert trigger": {
+        "prefix": "bs5-alert-trigger",
+        "body": [
+            "var alertList = document.querySelectorAll('${1}')",
+            "\talertList.forEach(function (alert) {",
+            "\tnew bootstrap.Alert(alert)",
+            "})"
+        ],
+        "description": "Creates Bootstrap 5 alert trigger code, enabling dismissal of an alert via JavaScript"
+    },
+    "Bootstrap 5 alert events": {
+        "prefix": "bs5-alert-events",
+        "body": [
+            "var myAlert = document.getElementById('${1}')",
+            "myAlert.addEventListener('closed.bs.alert', function () {",
+            "\t\/\/ write your code here",
+            "});"
+        ],
+        "description": "Creates Bootstrap 5 alert code, to expose a few events into alert via JavaScript"
+    }
+}

@@ -1,7 +1,7 @@
 {
     "name": "bootstrap5-snippets-vscode",
     "displayName": "bootstrap5-snippets-vscode",
-    "description": "",
+    "description": "Simple Bootstrap 5 snippets generator",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.56.0"
@@ -13,7 +13,23 @@
         "snippets": [
             {
                 "language": "html",
-                "path": "./snippets/snippets.code-snippets"
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "html",
+                "path": "./snippets/components/alerts/alerts.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/components/js-snippets.json"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/components/js-snippets.json"
+            },
+            {
+                "language": "typescriptreact",
+                "path": "./snippets/components/js-snippets.json"
             }
         ]
     }

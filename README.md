@@ -1,6 +1,25 @@
-# bootstrap5-snippets-vscode README
+# Bootstrap v5.0 snippets
 
-This is the README for your extension "bootstrap5-snippets-vscode". After writing up a brief description, we recommend including the following sections.
+This extension helps you to quickly generate snippets to work with Bootstrap version 5.0.
+This extension works for both stable and insider builds.
+
+Install this extension and type "**bs5**" to get the suggestions.
+
+# Documentation
+
+Following are the list of available snippets
+
+## Alerts
+| Alert type                  | Description                   |
+| --------------------------- | ----------------------------- |
+| bs5-alert                   | Default alert                 |
+| bs5-alert-link              | Alert with links              |
+| bs5-alert-add-content       | Alert with additional content |
+| bs5-alert-dismissable       | Dismissible alert             |
+| bs5-alert-icon-warning-info | Alert with info icon          |
+| bs5-alert-icon-circle-info  | Alert with circular info icon |
+| bs5-alert-icon-check-circle | Alert with circular info icon |
+
 
 ## Features
 
@@ -36,16 +55,9 @@ Calling out known issues can help limit users opening duplicate issues against y
 Users appreciate release notes as you update your extension.
 
 ### 1.0.0
+Initial release, with all the components listed in Bootstrap v5.0
 
-Initial release of ...
 
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
 
 -----------------------------------------------------------------------------------------------------------
 

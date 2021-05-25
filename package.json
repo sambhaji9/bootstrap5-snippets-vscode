@@ -17,7 +17,11 @@
             },
             {
                 "language": "html",
-                "path": "./snippets/components/alerts/alerts.json"
+                "path": "./snippets/components/alerts.json"
+            },
+            {
+                "language": "html",
+                "path": "./snippets/components/badges.json"
             },
             {
                 "language": "javascript",

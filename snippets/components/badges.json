@@ -5,5 +5,29 @@
             "<span class=\"badge bg-${1:primary|secondary|success|danger|warning|info|light|dark}\">${1:primary|secondary|success|danger|warning|info|light|dark}</span>"
         ],
         "description": "Bootstrap v5 default template for badges"
+    },
+    "Bootstrap 5 heading badge": {
+        "prefix": "bs5-badge-heading",
+        "body": [
+            "<h${1:1-6}>Example heading <span class=\"badge bg-${2:primary|secondary|success|danger|warning|info|light|dark}\">New</span></h${1:1-6}>"
+        ],
+        "description": "Bootstrap v5 template for heading badges"
+    },
+    "Bootstrap 5 pill badge": {
+        "prefix": "bs5-badge-pill",
+        "body": [
+            "<span class=\"badge rounded-pill bg-${1:primary|secondary|success|danger|warning|info|light|dark}\">${1:primary|secondary|success|danger|warning|info|light|dark}</span>"
+        ],
+        "description": "Bootstrap v5 template for pill badges"
+    },
+    "Bootstrap 5 button badge": {
+        "prefix": "bs5-badge-button",
+        "body": [
+            "<button type=\"button\" class=\"btn btn-${3:primary|secondary|success|danger|warning|info|light|dark}\">",
+            "\t${4:Notification text} <span class=\"badge bg-${2:primary|secondary|success|danger|warning|info|light|dark}\">${5:Number}</span>",
+            "\t<span class=\"visually-hidden\">${1}</span>",
+            "</button>"
+        ],
+        "description": "Bootstrap v5 template for button badges"
     }
 }

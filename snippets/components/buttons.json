@@ -1,0 +1,9 @@
+{
+    "Bootstrap 5 default button": {
+        "prefix": "bs5-button-default",
+        "body": [
+            "<button type=\"button\" class=\"btn btn-${1:primary|secondary|success|danger|warning|info|light|dark}\">${1:primary|secondary|success|danger|warning|info|light|dark}</button>"
+        ],
+        "description": "Bootstrap v5 default template for buttons"
+    }
+}

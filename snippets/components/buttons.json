@@ -5,5 +5,19 @@
             "<button type=\"button\" class=\"btn btn-${1:primary|secondary|success|danger|warning|info|light|dark}\">${1:primary|secondary|success|danger|warning|info|light|dark}</button>"
         ],
         "description": "Bootstrap v5 default template for buttons"
+    },
+    "Bootstrap 5 outline button": {
+        "prefix": "bs5-button-outline",
+        "body": [
+            "<button type=\"button\" class=\"btn btn-outline-${1:primary|secondary|success|danger|warning|info|light|dark}\">${1:primary|secondary|success|danger|warning|info|light|dark}</button>"
+        ],
+        "description": "Bootstrap v5 template for outline buttons"
+    },
+    "Bootstrap 5 disabled button": {
+        "prefix": "bs5-button-disabled",
+        "body": [
+            "<button type=\"button\" class=\"btn btn-${1:primary|secondary|success|danger|warning|info|light|dark} btn-${2:lg|sm} disabled\">${1:primary|secondary|success|danger|warning|info|light|dark}</button>"
+        ],
+        "description": "Bootstrap v5 template for disabled buttons"
     }
 }

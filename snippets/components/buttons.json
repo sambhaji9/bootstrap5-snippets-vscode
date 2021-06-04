@@ -47,5 +47,19 @@
             "<button type=\"button\" class=\"btn btn-${1:primary|secondary|success|danger|warning|info|light|dark}\" disabled data-bs-toggle=\"button\" autocomplete=\"off\">${1:primary|secondary|success|danger|warning|info|light|dark}</button>"
         ],
         "description": "Bootstrap v5 template for active toggle buttons"
+    },
+    "Bootstrap 5 link button": {
+        "prefix": "bs5-link-button",
+        "body": [
+            "<a href=\"${2:#}\" class=\"btn btn-${3:primary|secondary|success|danger|warning|info|light|dark} btn-lg\" tabindex=\"-1\" role=\"button\">${1}</a>"
+        ],
+        "description": "Bootstrap v5 template for link buttons"
+    },
+    "Bootstrap 5 link disabled button": {
+        "prefix": "bs5-link-disabled-button",
+        "body": [
+            "<a href=\"${2:#}\" class=\"btn btn-${3:primary|secondary|success|danger|warning|info|light|dark} btn-lg disabled\" tabindex=\"-1\" role=\"button\" aria-disabled=\"true\">${1}</a>"
+        ],
+        "description": "Bootstrap v5 template for link disabled buttons"
     }
 }

@@ -28,6 +28,10 @@
                 "path": "./snippets/components/buttons.json"
             },
             {
+                "language": "html",
+                "path": "./snippets/components/tooltip.json"
+            },
+            {
                 "language": "javascript",
                 "path": "./snippets/components/js-snippets.json"
             },

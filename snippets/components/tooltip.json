@@ -1,0 +1,11 @@
+{
+    "Bootstrap 5 tooltip default": {
+        "prefix": "bs5-tooltip-default",
+        "body": [
+            "<button type=\"button\" class=\"btn btn-${2:primary|secondary|success|danger|warning|info|light|dark}\" data-bs-toggle=\"tooltip\" data-bs-placement=\"${1:top|right|bottom|left}\" title=\"Tooltip on ${1:top|right|bottom|left}\">",
+                "\tTooltip on ${1:top|right|bottom|left}",
+            "</button>"
+        ],
+        "description": "Bootstrap v5 template for link disabled buttons"
+    }
+}

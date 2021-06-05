@@ -61,5 +61,14 @@
             "<a href=\"${2:#}\" class=\"btn btn-${3:primary|secondary|success|danger|warning|info|light|dark} btn-lg disabled\" tabindex=\"-1\" role=\"button\" aria-disabled=\"true\">${1}</a>"
         ],
         "description": "Bootstrap v5 template for link disabled buttons"
+    },
+    "Bootstrap 5 large block button": {
+        "prefix": "bs5-block-large-button",
+        "body": [
+            "<div class=\"d-grid gap-2\">",
+                "\t<button class=\"btn btn-${1:primary|secondary|success|danger|warning|info|light|dark}\" type=\"button\">${1}</button>",
+            "</div>"
+        ],
+        "description": "Bootstrap v5 template for large block buttons"
     }
 }

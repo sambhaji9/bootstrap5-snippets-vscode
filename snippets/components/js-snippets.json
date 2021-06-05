@@ -18,5 +18,19 @@
             "});"
         ],
         "description": "Creates Bootstrap 5 alert code, to expose a few events into alert via JavaScript"
+    },
+    "Bootstrap 5 tooltip eventListener": {
+        "prefix": "bs5-tooltip-events",
+        "body": [
+            "var ${1:myTooltipEl} = document.getElementById('myTooltip')",
+            "var ${2:tooltip} = new bootstrap.Tooltip(${1:myTooltipEl})",
+
+            "${1:myTooltipEl}.addEventListener('hidden.bs.tooltip', function () {",
+            "// do something...",
+            "})",
+
+            "${2:tooltip}.hide()"
+        ],
+        "description": "Creates Bootstrap 5 alert code, to expose a few events into alert via JavaScript"
     }
 }

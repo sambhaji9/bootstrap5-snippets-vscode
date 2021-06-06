@@ -24,6 +24,77 @@
             "\t<span class=\"visually-hidden\">${2:Loading...}</span>",
             "</div>"
         ],
-        "description": "Bootstrap v5 color spinner for a lightweight loading indicator"
+        "description": "Bootstrap v5 color spinner for loading indicator"
+    },
+    "Bootstrap 5 spinner margin": {
+        "prefix": "bs5-spinner-margin",
+        "body": [
+            "<div class=\"spinner-${2:border|grow} text-${1:primary|secondary|success|danger|warning|info|light|dark} m-5\" role=\"status\">",
+            "\t<span class=\"visually-hidden\">${3:Loading...}</span>",
+            "</div>"
+        ],
+        "description": "Bootstrap v5 spinner (color or grow ) with some margin for loading indicator"
+    },
+    "Bootstrap 5 spinner flex": {
+        "prefix": "bs5-spinner-flex",
+        "body": [
+            "<div class=\"d-flex justify-content-${1:start|center|end}\">",
+            "\t<div class=\"spinner-${3:border|grow} text-${2:primary|secondary|success|danger|warning|info|light|dark}\" role=\"status\">",
+            "\t\t<span class=\"visually-hidden\">${4:Loading...}</span>",
+            "\t</div>",
+            "</div>"
+        ],
+        "description": "Bootstrap v5 spinner (color or grow ) with flex positioning for loading indicator"
+    },
+    "Bootstrap 5 spinner floats": {
+        "prefix": "bs5-spinner-float",
+        "body": [
+            "<div class=\"clearfix\">",
+            "\t<div class=\"spinner-${3:border|grow} text-${2:primary|secondary|success|danger|warning|info|light|dark} float-${1:end|start|none}\" role=\"status\">",
+            "\t\t<span class=\"visually-hidden\">${4:Loading...}</span>",
+            "\t</div>",
+            "</div>"
+        ],
+        "description": "Bootstrap v5 spinner (color or grow ) with float positioning for loading indicator"
+    },
+    "Bootstrap 5 spinner text align": {
+        "prefix": "bs5-spinner-text-align",
+        "body": [
+            "<div class=\"text-${1:start|center|end}\">",
+            "\t<div class=\"spinner-${3:border|grow} text-${2:primary|secondary|success|danger|warning|info|light|dark}\" role=\"status\">",
+            "\t\t<span class=\"visually-hidden\">${4:Loading...}</span>",
+            "\t</div>",
+            "</div>"
+        ],
+        "description": "Bootstrap v5 spinner (color or grow ) with text alignment for loading indicator"
+    },
+    "Bootstrap 5 spinner size (small, large)": {
+        "prefix": "bs5-spinner-size",
+        "body": [
+            "<div class=\"spinner-${3:border|grow} text-${2:primary|secondary|success|danger|warning|info|light|dark} spinner-border-${1:sm|lg}\" role=\"status\">",
+            "\t<span class=\"visually-hidden\">${4:Loading...}</span>",
+            "</div>"
+        ],
+        "description": "Bootstrap v5 spinner (color or grow ) with small or large size"
+    },
+    "Bootstrap 5 spinner button text": {
+        "prefix": "bs5-spinner-button-text",
+        "body": [
+            "<button class=\"btn btn-${1:primary|secondary|success|danger|warning|info|light|dark}\" type=\"button\" disabled>",
+            "\t<span class=\"spinner-${2:border|grow} spinner-border-${3:lg|sm}\" role=\"status\" aria-hidden=\"true\"></span>",
+            "\tLoading...",
+            "</button>"
+        ],
+        "description": "Bootstrap v5 spinner (color or grow ) on button with text in small or large size"
+    },
+    "Bootstrap 5 spinner button": {
+        "prefix": "bs5-spinner-button",
+        "body": [
+            "<button class=\"btn btn-${1:primary|secondary|success|danger|warning|info|light|dark}\" type=\"button\" disabled>",
+            "\t<span class=\"spinner-${2:border|grow} spinner-border-${3:lg|sm}\" role=\"status\" aria-hidden=\"true\"></span>",
+            "\t<span class=\"visually-hidden\">Loading...</span>",
+            "</button>"
+        ],
+        "description": "Bootstrap v5 spinner (color or grow ) on button without text in small or large size"
     }
 }

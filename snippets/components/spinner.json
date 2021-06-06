@@ -1,0 +1,29 @@
+{
+    "Bootstrap 5 border spinner": {
+        "prefix": "bs5-spinner-border",
+        "body": [
+            "<div class=\"spinner-border\" role=\"status\">",
+            "\t<span class=\"visually-hidden\">${1:Loading...}</span>",
+            "</div>"
+        ],
+        "description": "Bootstrap v5 border spinner for a lightweight loading indicator"
+    },
+    "Bootstrap 5 colored spinner": {
+        "prefix": "bs5-spinner-color",
+        "body": [
+            "<div class=\"spinner-border text-${1:primary|secondary|success|danger|warning|info|light|dark}\" role=\"status\">",
+            "\t<span class=\"visually-hidden\">${2:Loading...}</span>",
+            "</div>"
+        ],
+        "description": "Bootstrap v5 color spinner for a lightweight loading indicator"
+    },
+    "Bootstrap 5 growing spinner": {
+        "prefix": "bs5-spinner-grow",
+        "body": [
+            "<div class=\"spinner-grow text-${1:primary|secondary|success|danger|warning|info|light|dark}\" role=\"status\">",
+            "\t<span class=\"visually-hidden\">${2:Loading...}</span>",
+            "</div>"
+        ],
+        "description": "Bootstrap v5 color spinner for a lightweight loading indicator"
+    }
+}

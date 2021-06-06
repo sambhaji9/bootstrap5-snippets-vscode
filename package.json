@@ -32,6 +32,10 @@
                 "path": "./snippets/components/tooltip.json"
             },
             {
+                "language": "html",
+                "path": "./snippets/components/spinner.json"
+            },
+            {
                 "language": "javascript",
                 "path": "./snippets/components/js-snippets.json"
             },

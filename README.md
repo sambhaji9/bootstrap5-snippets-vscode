@@ -20,6 +20,16 @@ Following are the list of available snippets
 | bs5-alert-icon-circle-info  | Alert with circular info icon |
 | bs5-alert-icon-check-circle | Alert with circular info icon |
 
+<br>
+
+## Badges
+| Badges type                 | Description                   |
+| --------------------------- | ----------------------------- |
+| bs5-badge-default           | Default Badge                 |
+| bs5-badge-heading           | Badges for headers            |
+| bs5-badge-pill              | Badges on pills               |
+| bs5-badge-button            | Badges on buttons             |
+
 
 ## Features
 

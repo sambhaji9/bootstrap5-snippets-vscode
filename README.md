@@ -30,6 +30,29 @@ Following are the list of available snippets
 | bs5-badge-pill              | Badges on pills               |
 | bs5-badge-button            | Badges on buttons             |
 
+<br>
+
+## Tooltips
+| Tooltip type                | Description                   |
+| --------------------------- | ----------------------------- |
+| bs5-tooltip-default         | Default tooltip               |
+
+<br>
+
+## Spinners
+| Spinners type           | Description                           |
+| ------------------------| ------------------------------------- |
+| bs5-spinner-border      | Default spinner                       |
+| bs5-spinner-color       | Colored spinner                       |
+| bs5-spinner-grow        | Growing spinner                       |
+| bs5-spinner-margin      | Spinner with margins                  |
+| bs5-spinner-flex        | Spinner with flex settings            |
+| bs5-spinner-floats      | Spinner with float settings           |
+| bs5-spinner-text-align  | Spinner with text align settings      |
+| bs5-spinner-size        | Spinner with large or small settings  |
+| bs5-spinner-button-text | Spinner on button with text           |
+| bs5-spinner-button      | Spinner on button without text        |
+
 
 ## Features
 

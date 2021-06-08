@@ -1,23 +1,23 @@
 {
-    "Bootstrap 5 Default Alert": {
+    "Bootstrap v5 Default Alert": {
         "prefix": "bs5-alert",
         "body": [
             "<div class=\"alert alert-${1:primary|secondary|success|danger|warning|info|light|dark}\" role=\"alert\">",
                 "\tA simple ${1} alert—check it out!",
             "</div>"
         ],
-        "description": "Creates Bootstrap 5 default alert template"
+        "description": "Creates Bootstrap v5 default alert template"
     },
-    "Bootstrap 5 Alert with Link": {
+    "Bootstrap v5 Alert with Link": {
         "prefix": "bs5-alert-link",
         "body": [
             "<div class=\"alert alert-${1:primary|secondary|success|danger|warning|info|light|dark}\" role=\"alert\">",
                 "\tA simple ${1} alert <a href=\"#${2}\" class=\"alert-link\">Example link</a> click it out!",
             "</div>"
         ],
-        "description": "Creates Bootstrap 5 alert template, with links"
+        "description": "Creates Bootstrap v5 alert template, with links"
     },
-    "Bootstrap 5 Alert with Additional content": {
+    "Bootstrap v5 Alert with Additional content": {
         "prefix": "bs5-alert-add-content",
         "body": [
             "<div class=\"alert alert-${1:primary|secondary|success|danger|warning|info|light|dark}\" role=\"alert\">",
@@ -27,9 +27,9 @@
                 "\t<p class=\"mb-0\">${4}</p>",
             "</div>"
         ],
-        "description": "Creates Bootstrap 5 alert template, for additional content"
+        "description": "Creates Bootstrap v5 alert template, for additional content"
     },
-    "Bootstrap 5 Alert with dismissable close button": {
+    "Bootstrap v5 Alert with dismissable close button": {
         "prefix": "bs5-alert-dismissable",
         "body": [
             "<div class=\"alert alert-${1:primary|secondary|success|danger|warning|info|light|dark} alert-dismissible fade show\" role=\"alert\">",
@@ -37,9 +37,9 @@
             "\t<button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"alert\" aria-label=\"Close\"></button>",
             "</div>"
         ],
-        "description": "Creates Bootstrap 5 alert template, for additional content"
+        "description": "Creates Bootstrap v5 alert template, for additional content"
     },
-    "Bootstrap 5 Alert with warning info icon": {
+    "Bootstrap v5 Alert with warning info icon": {
         "prefix": "bs5-alert-icon-warning-info",
         "body": [
             "<div class=\"alert alert-${1:primary|secondary|success|danger|warning|info|light|dark} d-flex align-items-center\" role=\"alert\">",
@@ -51,9 +51,9 @@
               "\t</div>",
             "</div>"
         ],
-        "description": "Creates Bootstrap 5 alert with info icon"
+        "description": "Creates Bootstrap v5 alert with info icon"
     },
-    "Bootstrap 5 Alert with filled circle info icon": {
+    "Bootstrap v5 Alert with filled circle info icon": {
         "prefix": "bs5-alert-icon-circle-info",
         "body": [
             "<div class=\"alert alert-${1:primary|secondary|success|danger|warning|info|light|dark} d-flex align-items-center\" role=\"alert\">",
@@ -65,9 +65,9 @@
               "\t</div>",
             "</div>"
         ],
-        "description": "Creates Bootstrap 5 alert with info icon"
+        "description": "Creates Bootstrap v5 alert with info icon"
     },
-    "Bootstrap 5 Alert with filled checked circle icon": {
+    "Bootstrap v5 Alert with filled checked circle icon": {
         "prefix": "bs5-alert-icon-check-circle",
         "body": [
             "<div class=\"alert alert-${1:primary|secondary|success|danger|warning|info|light|dark} d-flex align-items-center\" role=\"alert\">",
@@ -79,6 +79,6 @@
               "\t</div>",
             "</div>"
         ],
-        "description": "Creates Bootstrap 5 alert with info icon"
+        "description": "Creates Bootstrap v5 alert with info icon"
     }
 }

@@ -1,68 +1,68 @@
 {
-    "Bootstrap 5 default button": {
+    "Bootstrap v5 default button": {
         "prefix": "bs5-button-default",
         "body": [
             "<button type=\"button\" class=\"btn btn-${1:primary|secondary|success|danger|warning|info|light|dark}\">${1:primary|secondary|success|danger|warning|info|light|dark}</button>"
         ],
         "description": "Bootstrap v5 default template for buttons"
     },
-    "Bootstrap 5 outline button": {
+    "Bootstrap v5 outline button": {
         "prefix": "bs5-button-outline",
         "body": [
             "<button type=\"button\" class=\"btn btn-outline-${1:primary|secondary|success|danger|warning|info|light|dark}\">${1:primary|secondary|success|danger|warning|info|light|dark}</button>"
         ],
         "description": "Bootstrap v5 template for outline buttons"
     },
-    "Bootstrap 5 disabled button": {
+    "Bootstrap v5 disabled button": {
         "prefix": "bs5-button-disabled",
         "body": [
             "<button type=\"button\" class=\"btn btn-${1:primary|secondary|success|danger|warning|info|light|dark} btn-${2:lg|sm} disabled\">${1:primary|secondary|success|danger|warning|info|light|dark}</button>"
         ],
         "description": "Bootstrap v5 template for disabled buttons"
     },
-    "Bootstrap 5 button sizes (large, small)": {
+    "Bootstrap v5 button sizes (large, small)": {
         "prefix": "bs5-button-sizes",
         "body": [
             "<button type=\"button\" class=\"btn btn-${1:primary|secondary|success|danger|warning|info|light|dark} btn-${2:lg|sm}\">${1:primary|secondary|success|danger|warning|info|light|dark}</button>"
         ],
         "description": "Bootstrap v5 template for disabled buttons"
     },
-    "Bootstrap 5 button toggle default": {
+    "Bootstrap v5 button toggle default": {
         "prefix": "bs5-button-toggle-default",
         "body": [
             "<button type=\"button\" class=\"btn btn-${1:primary|secondary|success|danger|warning|info|light|dark}\" data-bs-toggle=\"button\" autocomplete=\"off\">${1:primary|secondary|success|danger|warning|info|light|dark}</button>"
         ],
         "description": "Bootstrap v5 template for toggle buttons (default)"
     },
-    "Bootstrap 5 button active toggle": {
+    "Bootstrap v5 button active toggle": {
         "prefix": "bs5-button-active-toggle",
         "body": [
             "<button type=\"button\" class=\"btn btn-${1:primary|secondary|success|danger|warning|info|light|dark} active\" data-bs-toggle=\"button\" autocomplete=\"off\" aria-pressed=\"true\">${1:primary|secondary|success|danger|warning|info|light|dark}</button>"
         ],
         "description": "Bootstrap v5 template for active toggle buttons"
     },
-    "Bootstrap 5 button disabled toggle": {
+    "Bootstrap v5 button disabled toggle": {
         "prefix": "bs5-button-disabled-toggle",
         "body": [
             "<button type=\"button\" class=\"btn btn-${1:primary|secondary|success|danger|warning|info|light|dark}\" disabled data-bs-toggle=\"button\" autocomplete=\"off\">${1:primary|secondary|success|danger|warning|info|light|dark}</button>"
         ],
         "description": "Bootstrap v5 template for active toggle buttons"
     },
-    "Bootstrap 5 link button": {
+    "Bootstrap v5 link button": {
         "prefix": "bs5-link-button",
         "body": [
             "<a href=\"${2:#}\" class=\"btn btn-${3:primary|secondary|success|danger|warning|info|light|dark} btn-lg\" tabindex=\"-1\" role=\"button\">${1}</a>"
         ],
         "description": "Bootstrap v5 template for link buttons"
     },
-    "Bootstrap 5 link disabled button": {
+    "Bootstrap v5 link disabled button": {
         "prefix": "bs5-link-disabled-button",
         "body": [
             "<a href=\"${2:#}\" class=\"btn btn-${3:primary|secondary|success|danger|warning|info|light|dark} btn-lg disabled\" tabindex=\"-1\" role=\"button\" aria-disabled=\"true\">${1}</a>"
         ],
         "description": "Bootstrap v5 template for link disabled buttons"
     },
-    "Bootstrap 5 large block button": {
+    "Bootstrap v5 large block button": {
         "prefix": "bs5-block-large-button",
         "body": [
             "<div class=\"d-grid gap-2\">",

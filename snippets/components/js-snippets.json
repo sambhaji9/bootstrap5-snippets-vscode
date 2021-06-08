@@ -1,5 +1,5 @@
 {
-    "Bootstrap 5 alert trigger": {
+    "Bootstrap v5 alert trigger": {
         "prefix": "bs5-alert-trigger",
         "body": [
             "var alertList = document.querySelectorAll('${1}')",
@@ -7,9 +7,9 @@
             "\tnew bootstrap.Alert(alert)",
             "})"
         ],
-        "description": "Creates Bootstrap 5 alert trigger code, enabling dismissal of an alert via JavaScript"
+        "description": "Creates Bootstrap v5 alert trigger code, enabling dismissal of an alert via JavaScript"
     },
-    "Bootstrap 5 alert events": {
+    "Bootstrap v5 alert events": {
         "prefix": "bs5-alert-events",
         "body": [
             "var myAlert = document.getElementById('${1}')",
@@ -17,9 +17,9 @@
             "\t\/\/ write your code here",
             "});"
         ],
-        "description": "Creates Bootstrap 5 alert code, to expose a few events into alert via JavaScript"
+        "description": "Creates Bootstrap v5 alert code, to expose a few events into alert via JavaScript"
     },
-    "Bootstrap 5 tooltip eventListener": {
+    "Bootstrap v5 tooltip eventListener": {
         "prefix": "bs5-tooltip-events",
         "body": [
             "var ${1:myTooltipEl} = document.getElementById('myTooltip')",
@@ -31,6 +31,6 @@
 
             "${2:tooltip}.hide()"
         ],
-        "description": "Creates Bootstrap 5 alert code, to expose a few events into alert via JavaScript"
+        "description": "Creates Bootstrap v5 alert code, to expose a few events into alert via JavaScript"
     }
 }

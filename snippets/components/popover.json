@@ -1,0 +1,25 @@
+{
+    "Bootstrap v5 default popover": {
+        "prefix": "bs5-popover-default",
+        "body": [
+            "<button type=\"button\" class=\"btn btn-${4:sm|lg} btn-${5:primary|secondary|success|danger|warning|info|light|dark}\" data-bs-toggle=\"popover\" title=\"${2:Popover title}\" data-bs-content=\"${3:Popover description}\">${1:button text}</button>"
+        ],
+        "description": "Bootstrap v5 default popover"
+    },
+    "Bootstrap v5 direction popover": {
+        "prefix": "bs5-popover-direction",
+        "body": [
+            "<button type=\"button\" class=\"btn btn-${2:sm|lg} btn-${3:primary|secondary|success|danger|warning|info|light|dark}\" data-bs-container=\"body\" data-bs-toggle=\"popover\" data-bs-placement=\"${1:top|right|bottom|left}\" data-bs-content=\"${1:Top|right|bottom|left} popover\">",
+            "\t${1:Popover on ${1:top|right|bottom|left}}",
+            "</button>"
+        ],
+        "description": "Bootstrap v5 popover with top, left, right, bottom"
+    },
+    "Bootstrap v5 dismissable popover": {
+        "prefix": "bs5-popover-dismissable",
+        "body": [
+            "<a tabindex=\"0\" class=\"btn btn-${4:sm|lg} btn-${5:primary|secondary|success|danger|warning|info|light|dark}\" role=\"button\" data-bs-toggle=\"popover\" data-bs-trigger=\"focus\" title=\"${2:Popover title}\" data-bs-content=\"${3:Popover description}\">${1:Dismissible popover}</a>"
+        ],
+        "description": "Bootstrap v5 dismissable popover"
+    }
+}

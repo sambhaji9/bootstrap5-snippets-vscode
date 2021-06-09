@@ -53,7 +53,16 @@ Following are the list of available snippets
 | bs5-spinner-button-text | Spinner on button with text           |
 | bs5-spinner-button      | Spinner on button without text        |
 
+<br>
 
+## Popovers
+| Popovers type           | Description                           |
+| ----------------------- | ------------------------------------- |
+| bs5-popover-default     | Default popover                       |
+| bs5-popover-direction   | Popover with direction, postioning    |
+| bs5-popover-dismissable | Dismissable popover                   |
+
+<br>
 ## Features
 
 Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.

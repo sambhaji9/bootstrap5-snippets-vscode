@@ -40,6 +40,10 @@
                 "path": "./snippets/components/popover.json"
             },
             {
+                "language": "html",
+                "path": "./snippets/components/progress.json"
+            },
+            {
                 "language": "javascript",
                 "path": "./snippets/components/js-snippets.json"
             },

@@ -63,6 +63,18 @@ Following are the list of available snippets
 | bs5-popover-dismissable | Dismissable popover                   |
 
 <br>
+
+## Progress
+| Progress type                 | Description                           |
+| ----------------------------- | ------------------------------------- |
+| bs5-progress-default          | Default progress bar                  |
+| bs5-progress-height           | Progress bar with height styles       |
+| bs5-progress-colored          | Colored progress bar                  |
+| bs5-progress-striped          | Colored striped progress bar          |
+| bs5-progress-animated-striped | Animated colored striped progress bar |
+| bs5-progress-multiple         | Multiple colored progress bar         |
+
+<br>
 ## Features
 
 Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.

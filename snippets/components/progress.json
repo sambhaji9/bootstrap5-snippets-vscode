@@ -1,0 +1,58 @@
+{
+    "Bootstrap v5 default progress bar": {
+        "prefix": "bs5-progress-default",
+        "body": [
+            "<div class=\"progress\">",
+            "\t<div class=\"progress-bar\" role=\"progressbar\" style=\"width: ${4:50}%\" aria-valuenow=\"${4:50}\" aria-valuemin=\"${2:0}\" aria-valuemax=\"${3:100}\">${1:progress bar}</div>",
+            "</div>"
+        ],
+        "description": "Bootstrap v5 default progress bar"
+    },
+    "Bootstrap v5 progress height": {
+        "prefix": "bs5-progress-height",
+        "body": [
+            "<div class=\"progress\" style=\"height: ${5:10}px;\">",
+            "\t<div class=\"progress-bar\" role=\"progressbar\" style=\"width: ${4:50}%\" aria-valuenow=\"${4:50}\" aria-valuemin=\"${2:0}\" aria-valuemax=\"${3:100}\">${1:progress bar}</div>",
+            "</div>"
+        ],
+        "description": "Bootstrap v5 progress bar with height styles"
+    },
+    "Bootstrap v5 colored progress bar": {
+        "prefix": "bs5-progress-colored",
+        "body": [
+            "<div class=\"progress\">",
+            "\t<div class=\"progress-bar bg-${5:primary|secondary|success|danger|warning|info|light|dark}\" role=\"progressbar\" style=\"width: ${4:50}%\" aria-valuenow=\"${4:50}\" aria-valuemin=\"${2:0}\" aria-valuemax=\"${3:100}\">${1:progress bar}</div>",
+            "</div>"
+        ],
+        "description": "Bootstrap v5 progress bar with color options"
+    },
+    "Bootstrap v5 striped progress bar": {
+        "prefix": "bs5-progress-striped",
+        "body": [
+            "<div class=\"progress\">",
+            "\t<div class=\"progress-bar progress-bar-striped bg-${5:primary|secondary|success|danger|warning|info|light|dark}\" role=\"progressbar\" style=\"width: ${4:50}%\" aria-valuenow=\"${4:50}\" aria-valuemin=\"${2:0}\" aria-valuemax=\"${3:100}\">${1:progress bar}</div>",
+            "</div>"
+        ],
+        "description": "Bootstrap v5 progress bar with striped class and color options"
+    },
+    "Bootstrap v5 animated striped progress bar": {
+        "prefix": "bs5-progress-animated-striped",
+        "body": [
+            "<div class=\"progress\">",
+            "\t<div class=\"progress-bar progress-bar-striped progress-bar-animated bg-${5:primary|secondary|success|danger|warning|info|light|dark}\" role=\"progressbar\" style=\"width: ${4:50}%\" aria-valuenow=\"${4:50}\" aria-valuemin=\"${2:0}\" aria-valuemax=\"${3:100}\">${1:progress bar}</div>",
+            "</div>"
+        ],
+        "description": "Bootstrap v5 progress bar with animated striped class and color options"
+    },
+    "Bootstrap v5 multiple progress bar": {
+        "prefix": "bs5-progress-multiple",
+        "body": [
+            "<div class=\"progress\">",
+            "\t<div class=\"progress-bar progress-bar-striped bg-${5:primary|secondary|success|danger|warning|info|light|dark}\" role=\"progressbar\" style=\"width: ${4:50}%\" aria-valuenow=\"${4:50}\" aria-valuemin=\"${2:0}\" aria-valuemax=\"${3:100}\">${1:progress bar}</div>",
+            "\t<div class=\"progress-bar progress-bar-striped bg-${10:primary|secondary|success|danger|warning|info|light|dark}\" role=\"progressbar\" style=\"width: ${9:50}%\" aria-valuenow=\"${9:50}\" aria-valuemin=\"${7:0}\" aria-valuemax=\"${8:100}\">${6:progress bar}</div>",
+            "\t<div class=\"progress-bar progress-bar-striped bg-${15:primary|secondary|success|danger|warning|info|light|dark}\" role=\"progressbar\" style=\"width: ${14:50}%\" aria-valuenow=\"${14:50}\" aria-valuemin=\"${12:0}\" aria-valuemax=\"${13:100}\">${11:progress bar}</div>",
+            "</div>"
+        ],
+        "description": "Bootstrap v5 progress bar with ability to show multiple progress bar"
+    }
+}

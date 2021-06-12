@@ -1,0 +1,83 @@
+{
+    "Bootstrap v5 Default Offcanvas": {
+        "prefix": "bs5-offcanvas-default",
+        "body": [
+            "<a class=\"btn btn-primary\" data-bs-toggle=\"offcanvas\" id=\"#${1:id}\" role=\"button\" aria-controls=\"offcanvasExample\">",
+            "\t${4:Trigger button}",
+            "</a>",
+
+            "<div class=\"offcanvas offcanvas-start\" tabindex=\"-1\" id=\"${1:id}\" aria-labelledby=\"offcanvasLabel\">",
+                "\t<div class=\"offcanvas-header\">",
+                    "\t\t<h5 class=\"offcanvas-title\" id=\"offcanvasLabel\">${2:offcanvas-title}</h5>",
+                    "\t\t<button type=\"button\" class=\"btn-close text-reset\" data-bs-dismiss=\"offcanvas\" aria-label=\"Close\"></button>",
+                "\t</div>",
+                "\t<div class=\"offcanvas-body\">",
+                    "\t\t${3:Add your offcanvas body here}",
+                "\t</div>",
+            "</div>"
+        ],
+        "description": "Creates Bootstrap v5 default offcanvas template"
+    },
+    "Bootstrap v5 Offcanvas target": {
+        "prefix": "bs5-offcanvas-target",
+        "body": [
+            "<a class=\"btn btn-primary\" data-bs-toggle=\"offcanvas\" data-bs-target=\"#${1:id}\" role=\"button\" aria-controls=\"offcanvas${2:start|end|bottom|top}\">",
+            "\t${5:Trigger button with data-bs-target}",
+            "</a>",
+
+            "<div class=\"offcanvas offcanvas-${2:start|end|bottom|top}\" tabindex=\"-1\" id=\"${1:id}\" aria-labelledby=\"offcanvasLabel\">",
+                "\t<div class=\"offcanvas-header\">",
+                    "\t\t<h5 class=\"offcanvas-title\" id=\"offcanvasLabel\">${3:offcanvas-title}</h5>",
+                    "\t\t<button type=\"button\" class=\"btn-close text-reset\" data-bs-dismiss=\"offcanvas\" aria-label=\"Close\"></button>",
+                "\t</div>",
+                "\t<div class=\"offcanvas-body\">",
+                    "\t\t<div>",
+                        "\t\t\t${4:Add your offcanvas body here}",
+                    "\t\t</div>",
+                    "\t\t<div class=\"dropdown mt-3\">",
+                        "\t\t\t<button class=\"btn btn-secondary dropdown-toggle\" type=\"button\" id=\"dropdownMenuButton\" data-bs-toggle=\"dropdown\">",
+                        "   \t\t\t\tDropdown button",
+                        "\t\t\t</button>",
+                        "\t\t\t<ul class=\"dropdown-menu\" aria-labelledby=\"dropdownMenuButton\">",
+                            "\t\t\t\t<li><a class=\"dropdown-item\" href=\"#\">Action</a></li>",
+                            "\t\t\t\t<li><a class=\"dropdown-item\" href=\"#\">Another action</a></li>",
+                            "\t\t\t\t<li><a class=\"dropdown-item\" href=\"#\">Something else here</a></li>",
+                        "\t\t\t</ul>",
+                    "\t\t</div>",
+                "\t</div>",
+            "</div>"
+        ],
+        "description": "Creates Bootstrap v5 offcanvas template with data-bs-target, with additional elements in offcanvas body, such as dropdown element"
+    },
+    "Bootstrap v5 Offcanvas scroll": {
+        "prefix": "bs5-offcanvas-scroll",
+        "body": [
+            "<a class=\"btn btn-primary\" data-bs-toggle=\"offcanvas\" data-bs-target=\"#${1:id}\" role=\"button\" aria-controls=\"offcanvas${2:start|end|bottom|top}\">",
+            "\t${5:Trigger button with data-bs-target}",
+            "</a>",
+
+            "<div class=\"offcanvas offcanvas-${2:start|end|bottom|top}\" data-bs-scroll=\"true\" tabindex=\"-1\" id=\"${1:id}\" aria-labelledby=\"offcanvasLabel\">",
+                "\t<div class=\"offcanvas-header\">",
+                    "\t\t<h5 class=\"offcanvas-title\" id=\"offcanvasLabel\">${3:offcanvas-title}</h5>",
+                    "\t\t<button type=\"button\" class=\"btn-close text-reset\" data-bs-dismiss=\"offcanvas\" aria-label=\"Close\"></button>",
+                "\t</div>",
+                "\t<div class=\"offcanvas-body\">",
+                    "\t\t<div>",
+                        "\t\t\t${4:Add your offcanvas body here}",
+                    "\t\t</div>",
+                    "\t\t<div class=\"dropdown mt-3\">",
+                        "\t\t\t<button class=\"btn btn-secondary dropdown-toggle\" type=\"button\" id=\"dropdownMenuButton\" data-bs-toggle=\"dropdown\">",
+                        "   \t\t\t\tDropdown button",
+                        "\t\t\t</button>",
+                        "\t\t\t<ul class=\"dropdown-menu\" aria-labelledby=\"dropdownMenuButton\">",
+                            "\t\t\t\t<li><a class=\"dropdown-item\" href=\"#\">Action</a></li>",
+                            "\t\t\t\t<li><a class=\"dropdown-item\" href=\"#\">Another action</a></li>",
+                            "\t\t\t\t<li><a class=\"dropdown-item\" href=\"#\">Something else here</a></li>",
+                        "\t\t\t</ul>",
+                    "\t\t</div>",
+                "\t</div>",
+            "</div>"
+        ],
+        "description": "Creates Bootstrap v5 offcanvas template with data-bs-target with scrolling enabled, with additional elements in offcanvas body, such as dropdown element"
+    }
+}

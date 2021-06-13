@@ -77,11 +77,21 @@ Following are the list of available snippets
 <br>
 
 ## Offcanvas
-| Progress type                 | Description                           |
+| Offcanvas type                 | Description                           |
 | ----------------------------- | ------------------------------------- |
 | bs5-offcanvas-default         | Default Offcanvas                     |
 | bs5-offcanvas-target          | Offcanvas with target                 |
 | bs5-offcanvas-scroll          | Offcanvas with scrolling              |
+
+<br>
+
+## Select
+| Select type                   | Description                           |
+| ----------------------------- | ------------------------------------- |
+| bs5-select-default            | Default Select                        |
+| bs5-select-sizing             | Select sizing, large, small           |
+| bs5-select-multiple           | Select with muliple selection         |
+| bs5-select-disabled           | Disabled select                       |
 
 <br>
 ## Features

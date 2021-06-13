@@ -75,6 +75,15 @@ Following are the list of available snippets
 | bs5-progress-multiple         | Multiple colored progress bar         |
 
 <br>
+
+## Offcanvas
+| Progress type                 | Description                           |
+| ----------------------------- | ------------------------------------- |
+| bs5-offcanvas-default         | Default Offcanvas                     |
+| bs5-offcanvas-target          | Offcanvas with target                 |
+| bs5-offcanvas-scroll          | Offcanvas with scrolling              |
+
+<br>
 ## Features
 
 Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.

@@ -48,6 +48,10 @@
                 "path": "./snippets/components/offcanvas.json"
             },
             {
+                "language": "html",
+                "path": "./snippets/forms/select.json"
+            },
+            {
                 "language": "javascript",
                 "path": "./snippets/components/js-snippets.json"
             },

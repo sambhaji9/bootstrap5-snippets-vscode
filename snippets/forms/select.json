@@ -1,0 +1,50 @@
+{
+    "Bootstrap v5 Default Select": {
+        "prefix": "bs5-select-default",
+        "body": [
+            "<select class=\"form-select\" aria-label=\"Default select example\">",
+            "\t<option selected>${1:Open this select menu}</option>",
+            "\t<option value=\"${2:1}\">${2:One}</option>",
+            "\t<option value=\"${3:2}\">${3:Two}</option>",
+            "\t<option value=\"${4:3}\">${4:Three}</option>",
+            "</select>"
+        ],
+        "description": "Creates Bootstrap v5 default select template"
+    },
+    "Bootstrap v5 Select Sizing": {
+        "prefix": "bs5-select-sizing",
+        "body": [
+            "<select class=\"form-select form-select-${1:lg|sm}\" aria-label=\".form-select-${1:lg|sm} example\">",
+            "\t<option selected>${2:Open this select menu}</option>",
+            "\t<option value=\"${3:1}\">${3:One}</option>",
+            "\t<option value=\"${4:2}\">${4:Two}</option>",
+            "\t<option value=\"${5:3}\">${5:Three}</option>",
+            "</select>"
+        ],
+        "description": "Creates Bootstrap v5 select template with large or small sizing options"
+    },
+    "Bootstrap v5 Select Multiple": {
+        "prefix": "bs5-select-multiple",
+        "body": [
+            "<select class=\"form-select form-select-${1:lg|sm}\" multiple aria-label=\"multiple select example\">",
+            "\t<option selected>${2:Open this select menu}</option>",
+            "\t<option value=\"${3:1}\">${3:One}</option>",
+            "\t<option value=\"${4:2}\">${4:Two}</option>",
+            "\t<option value=\"${5:3}\">${5:Three}</option>",
+            "</select>"
+        ],
+        "description": "Creates Bootstrap v5 select template, for multiple option selection with large or small sizing options"
+    },
+    "Bootstrap v5 Select Disabled": {
+        "prefix": "bs5-select-disabled",
+        "body": [
+            "<select class=\"form-select form-select-${1:lg|sm}\" disabled aria-label=\"disabled select example\">",
+            "\t<option selected>${2:Open this select menu}</option>",
+            "\t<option value=\"${3:1}\">${3:One}</option>",
+            "\t<option value=\"${4:2}\">${4:Two}</option>",
+            "\t<option value=\"${5:3}\">${5:Three}</option>",
+            "</select>"
+        ],
+        "description": "Creates Bootstrap v5 select disabled template"
+    }
+}

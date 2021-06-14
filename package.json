@@ -52,6 +52,10 @@
                 "path": "./snippets/forms/select.json"
             },
             {
+                "language": "html",
+                "path": "./snippets/forms/range.json"
+            },
+            {
                 "language": "javascript",
                 "path": "./snippets/components/js-snippets.json"
             },

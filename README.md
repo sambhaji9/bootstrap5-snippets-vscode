@@ -94,6 +94,16 @@ Following are the list of available snippets
 | bs5-select-disabled           | Disabled select                       |
 
 <br>
+
+## Range
+| Select type                   | Description                           |
+| ----------------------------- | ------------------------------------- |
+| bs5-range-default             | Default Range                         |
+| bs5-range-disabled            | Disabled Range                        |
+| bs5-range-min-max             | Range with Min Max                    |
+| bs5-range-steps               | Range with steps                      |
+
+<br>
 ## Features
 
 Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.

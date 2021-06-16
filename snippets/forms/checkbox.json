@@ -1,0 +1,101 @@
+{
+    "Bootstrap v5 Checkbox Default": {
+        "prefix": "bs5-checkbox-default",
+        "body": [
+            "<div class=\"form-check\">",
+                "\t<input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"${1:checkboxId}\">",
+                "\t<label class=\"form-check-label\" for=\"${1:checkboxId}\">",
+                    "\t\t${2:Default checkbox}",
+                "\t</label>",
+            "</div>"
+        ],
+        "description": "Creates Bootstrap v5 default Checkbox template"
+    },
+    "Bootstrap v5 Checkbox checked": {
+        "prefix": "bs5-checkbox-checked",
+        "body": [
+            "<div class=\"form-check\">",
+                "\t<input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"${1:checkboxId}\" checked>",
+                "\t<label class=\"form-check-label\" for=\"${1:checkboxId}\">",
+                    "\t\t${2:Checked checkbox}",
+                "\t</label>",
+            "</div>"
+        ],
+        "description": "Creates Bootstrap v5 Checked checkbox template"
+    },
+    "Bootstrap v5 Checkbox disabled": {
+        "prefix": "bs5-checkbox-disabled",
+        "body": [
+            "<div class=\"form-check\">",
+                "\t<input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"${1:checkboxId}\" disabled>",
+                "\t<label class=\"form-check-label\" for=\"${1:checkboxId}\">",
+                    "\t\t${2:Disabled checkbox}",
+                "\t</label>",
+            "</div>"
+        ],
+        "description": "Creates Bootstrap v5 Disabled checkbox template"
+    },
+    "Bootstrap v5 Inline checkbox": {
+        "prefix": "bs5-checkbox-inline",
+        "body": [
+            "<div class=\"form-check form-check-inline\">",
+                "\t<input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"inlineCheckbox${1:1}\">",
+                "\t<label class=\"form-check-label\" for=\"inlineCheckbox${1:1}\">",
+                    "\t\t${2:1}",
+                "\t</label>",
+            "</div>",
+            "<div class=\"form-check form-check-inline\">",
+                "\t<input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"inlineCheckbox${3:2}\">",
+                "\t<label class=\"form-check-label\" for=\"inlineCheckbox${3:2}\">",
+                    "\t\t${4:2}",
+                "\t</label>",
+            "</div>",
+            "<div class=\"form-check form-check-inline\">",
+                "\t<input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"inlineCheckbox${5:3}\" disabled>",
+                "\t<label class=\"form-check-label\" for=\"inlineCheckbox${5:3}\">",
+                    "\t\t${6:3 (Disabled)}",
+                "\t</label>",
+            "</div>"
+        ],
+        "description": "Creates Bootstrap v5 Inline checkbox template"
+    },
+    "Bootstrap v5 Checkbox no-label": {
+        "prefix": "bs5-checkbox-no-label",
+        "body": [
+            "<div>",
+                "\t<input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"${1:checkboxNoLabel}\" aria-label=\"...\">",
+            "</div>"
+        ],
+        "description": "Creates Bootstrap v5 checkbox with no-label template"
+    },
+    "Bootstrap v5 Toggle checkbox": {
+        "prefix": "bs5-toggle-checkbox",
+        "body": [
+            "<div>",
+                "\t<input type=\"checkbox\" class=\"btn-check\" id=\"${1:btnCheckId}\" autocomplete=\"off\">",
+                "\t<label class=\"btn btn-${3:primary|secondary|success|danger|warning|info|light|dark}\" for=\"${1:btnCheckId}\">${2:Single toggle }</label>",
+            "</div>"
+        ],
+        "description": "Creates Bootstrap v5 checkbox toggle button template"
+    },
+    "Bootstrap v5 Toggle checked checkbox": {
+        "prefix": "bs5-toggle-checked-checkbox",
+        "body": [
+            "<div>",
+                "\t<input type=\"checkbox\" class=\"btn-check\" id=\"${1:btnCheckId}\" autocomplete=\"off\" checked>",
+                "\t<label class=\"btn btn-${3:primary|secondary|success|danger|warning|info|light|dark}\" for=\"${1:btnCheckId}\">${2:Single toggle checked}</label>",
+            "</div>"
+        ],
+        "description": "Creates Bootstrap v5 checkbox checked toggle button template"
+    },
+    "Bootstrap v5 Toggle disabled checkbox": {
+        "prefix": "bs5-toggle-disabled-checkbox",
+        "body": [
+            "<div>",
+                "\t<input type=\"checkbox\" class=\"btn-check\" id=\"${1:btnCheckId}\" autocomplete=\"off\" disabled>",
+                "\t<label class=\"btn btn-${3:primary|secondary|success|danger|warning|info|light|dark}\" for=\"${1:btnCheckId}\">${2:Single toggle disabled}</label>",
+            "</div>"
+        ],
+        "description": "Creates Bootstrap v5 checkbox disabled toggle button template"
+    }
+}

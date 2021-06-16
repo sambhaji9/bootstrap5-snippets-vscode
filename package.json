@@ -56,6 +56,10 @@
                 "path": "./snippets/forms/range.json"
             },
             {
+                "language": "html",
+                "path": "./snippets/forms/checkbox.json"
+            },
+            {
                 "language": "javascript",
                 "path": "./snippets/components/js-snippets.json"
             },

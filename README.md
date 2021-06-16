@@ -96,12 +96,27 @@ Following are the list of available snippets
 <br>
 
 ## Range
-| Select type                   | Description                           |
+| Range type                    | Description                           |
 | ----------------------------- | ------------------------------------- |
 | bs5-range-default             | Default Range                         |
 | bs5-range-disabled            | Disabled Range                        |
 | bs5-range-min-max             | Range with Min Max                    |
 | bs5-range-steps               | Range with steps                      |
+
+
+<br>
+
+## Checkbox
+| Checkbox type                 | Description                     |
+| ----------------------------- | ------------------------------- |
+| bs5-checkbox-default          | Default Checkbox                |
+| bs5-checkbox-checked          | Checked Checkbox                |
+| bs5-checkbox-disabled         | Disabled Checkbox               |
+| bs5-checkbox-inline           | Inline Checkbox                 |
+| bs5-checkbox-no-label         | Checkbox with No label          |
+| bs5-toggle-checkbox           | Toggle Button Checkbox          |
+| bs5-toggle-checked-checkbox   | Toggle Button Checked Checkbox  |
+| bs5-toggle-disabled-checkbox  | Toggle Button Disabled Checkbox |
 
 <br>
 ## Features

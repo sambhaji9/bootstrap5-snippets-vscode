@@ -68,6 +68,32 @@
         ],
         "description": "Creates Bootstrap v5 checkbox with no-label template"
     },
+    "Bootstrap v5 Checkbox stacked": {
+        "prefix": "bs5-checkbox-stacked",
+        "body": [
+            "<div>",
+            "\t<div class=\"form-check\">",
+            "\t\t<input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"${1:defaultCheck1}\">",
+            "\t\t<label class=\"form-check-label\" for=\"${1:defaultCheck1}\">",
+                "\t\t\t${2:First checkbox}",
+            "\t\t</label>",
+            "\t</div>",
+            "\t<div class=\"form-check\">",
+            "\t\t<input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"${3:defaultCheck2}\">",
+            "\t\t<label class=\"form-check-label\" for=\"${3:defaultCheck2}\">",
+                "\t\t\t${4:Second checkbox}",
+            "\t\t</label>",
+            "\t</div>",
+            "\t<div class=\"form-check\">",
+            "\t\t<input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"${5:defaultCheck3}\" disabled>",
+            "\t\t<label class=\"form-check-label\" for=\"${5:defaultCheck3}\">",
+                "\t\t\t${6:Disabled checkbox}",
+            "\t\t</label>",
+            "\t</div>",
+            "</div>"
+        ],
+        "description": "Creates Bootstrap v5 checkbox with no-label template"
+    },
     "Bootstrap v5 Toggle checkbox": {
         "prefix": "bs5-toggle-checkbox",
         "body": [

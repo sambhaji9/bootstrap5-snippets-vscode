@@ -1,0 +1,118 @@
+{
+    "Bootstrap v5 Radio Default": {
+        "prefix": "bs5-radio-default",
+        "body": [
+            "<div class=\"form-check\">",
+            "\t<input class=\"form-check-input\" type=\"radio\" name=\"flexRadioDefault\" id=\"${1:flexRadioDefault1}\">",
+            "\t<label class=\"form-check-label\" for=\"${1:flexRadioDefault1}\">",
+            "\t\t${2:Default radio}",
+            "\t</label>",
+            "</div>"
+        ],
+        "description": "Creates Bootstrap v5 default Radio template"
+    },
+    "Bootstrap v5 Radio checked": {
+        "prefix": "bs5-radio-checked",
+        "body": [
+            "<div class=\"form-check\">",
+            "\t<input class=\"form-check-input\" type=\"radio\" name=\"flexRadioDefault\" id=\"${1:flexRadioDefault1}\" checked>",
+            "\t<label class=\"form-check-label\" for=\"${1:flexRadioDefault1}\">",
+            "\t\t${2:Default checked radio}",
+            "\t</label>",
+            "</div>"
+        ],
+        "description": "Creates Bootstrap v5 Checked Radio template"
+    },
+    "Bootstrap v5 Radio disabled": {
+        "prefix": "bs5-radio-disabled",
+        "body": [
+            "<div class=\"form-check\">",
+            "\t<input class=\"form-check-input\" type=\"radio\" name=\"flexRadioDisabled\" id=\"${1:flexRadioDisabled1}\" disabled>",
+            "\t<label class=\"form-check-label\" for=\"${1:flexRadioDisabled1}\">",
+            "\t\t${2:Disabled radio}",
+            "\t</label>",
+            "</div>"
+        ],
+        "description": "Creates Bootstrap v5 Disabled Radio template"
+    },
+    "Bootstrap v5 Inline radio": {
+        "prefix": "bs5-radio-inline",
+        "body": [
+            "<div>",
+            "\t<div class=\"form-check form-check-inline\">",
+            "\t\t<input class=\"form-check-input\" type=\"radio\" name=\"${1:inlineRadioOptions}\" value=\"option1\" id=\"${2:inlineRadio1}\">",
+            "\t\t<label class=\"form-check-label\" for=\"${2:inlineRadio1}\">",
+            "\t\t\t${3:1}",
+            "\t\t</label>",
+            "\t</div>",
+            "\t<div class=\"form-check form-check-inline\">",
+            "\t\t<input class=\"form-check-input\" type=\"radio\" name=\"${1:inlineRadioOptions}\" value=\"option2\" id=\"${4:inlineRadio2}\">",
+            "\t\t<label class=\"form-check-label\" for=\"${4:inlineRadio2}\">",
+            "\t\t\t${5:2}",
+            "\t\t</label>",
+            "\t</div>",
+            "\t<div class=\"form-check form-check-inline\">",
+            "\t\t<input class=\"form-check-input\" type=\"radio\" name=\"${1:inlineRadioOptions}\" value=\"option3\" id=\"${6:inlineRadio3}\" disabled>",
+            "\t\t<label class=\"form-check-label\" for=\"${6:inlineRadio3}\">",
+            "\t\t\t${7:3 (Disabled)}",
+            "\t\t</label>",
+            "\t</div>",
+            "</div>"
+        ],
+        "description": "Creates Bootstrap v5 Inline radio template"
+    },
+    "Bootstrap v5 Radio no-label": {
+        "prefix": "bs5-radio-no-label",
+        "body": [
+            "<div>",
+            "\t<input class=\"form-check-input\" type=\"radio\" name=\"radioNoLabel\" id=\"${1:radioNoLabel1}\" value=\"\" aria-label=\"...\">",
+            "</div>"
+        ],
+        "description": "Creates Bootstrap v5 radio with no-label template"
+    },
+    "Bootstrap v5 Stacked radio": {
+        "prefix": "bs5-radio-stacked",
+        "body": [
+            "<div>",
+            "\t<div class=\"form-check\">",
+            "\t\t<input class=\"form-check-input\" type=\"radio\" name=\"${1:stackedRadioOptions}\" value=\"option1\" id=\"${2:stackedRadio1}\">",
+            "\t\t<label class=\"form-check-label\" for=\"${2:stackedRadio1}\">",
+            "\t\t\t${3:1}",
+            "\t\t</label>",
+            "\t</div>",
+            "\t<div class=\"form-check\">",
+            "\t\t<input class=\"form-check-input\" type=\"radio\" name=\"${1:stackedRadioOptions}\" value=\"option2\" id=\"${4:stackedRadio2}\">",
+            "\t\t<label class=\"form-check-label\" for=\"${4:stackedRadio2}\">",
+            "\t\t\t${5:2}",
+            "\t\t</label>",
+            "\t</div>",
+            "\t<div class=\"form-check\">",
+            "\t\t<input class=\"form-check-input\" type=\"radio\" name=\"${1:stackedRadioOptions}\" value=\"option3\" id=\"${6:stackedRadio3}\" disabled>",
+            "\t\t<label class=\"form-check-label\" for=\"${6:stackedRadio3}\">",
+            "\t\t\t${7:3 (Disabled)}",
+            "\t\t</label>",
+            "\t</div>",
+            "</div>"
+        ],
+        "description": "Creates Bootstrap v5 Stacked radio template"
+    },
+    "Bootstrap v5 Toggle radio": {
+        "prefix": "bs5-toggle-radio",
+        "body": [
+            "<div>",
+            "\t<input type=\"radio\" class=\"btn-check\" name=\"options\" id=\"${1:option1}\" autocomplete=\"off\" checked>",
+            "\t<label class=\"btn btn-secondary\" for=\"${1:option1}\">Checked</label>\n",
+            
+            "\t<input type=\"radio\" class=\"btn-check\" name=\"options\" id=\"${2:option2}\" autocomplete=\"off\">",
+            "\t<label class=\"btn btn-secondary\" for=\"${2:option2}\">Radio</label>\n",
+            
+            "\t<input type=\"radio\" class=\"btn-check\" name=\"options\" id=\"${3:option3}\" autocomplete=\"off\" disabled>",
+            "\t<label class=\"btn btn-secondary\" for=\"${3:option3}\">Disabled</label>\n",
+            
+            "\t<input type=\"radio\" class=\"btn-check\" name=\"options\" id=\"${4:option4}\" autocomplete=\"off\">",
+            "\t<label class=\"btn btn-secondary\" for=\"${4:option4}\">Radio</label>\n",
+            "</div>"
+        ],
+        "description": "Creates Bootstrap v5 toggle radio template"
+    }
+}

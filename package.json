@@ -60,6 +60,10 @@
                 "path": "./snippets/forms/checkbox.json"
             },
             {
+                "language": "html",
+                "path": "./snippets/forms/radio.json"
+            },
+            {
                 "language": "javascript",
                 "path": "./snippets/components/js-snippets.json"
             },

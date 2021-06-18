@@ -119,6 +119,20 @@ Following are the list of available snippets
 | bs5-toggle-checked-checkbox   | Toggle Button Checked Checkbox     |
 | bs5-toggle-disabled-checkbox  | Toggle Button Disabled Checkbox    |
 
+
+<br>
+
+## Radio
+| Radio type                 | Description                     |
+| -------------------------- | ------------------------------- |
+| bs5-radio-default          | Default Radio                   |
+| bs5-radio-checked          | Checked Radio                   |
+| bs5-radio-disabled         | Disabled Radio                  |
+| bs5-radio-inline           | Inline Radio                    |
+| bs5-radio-no-label         | Radio with No label             |
+| bs5-radio-stacked          | Multiple Radio stacked vertical |
+| bs5-toggle-radio           | Toggle Button Radio             |
+
 <br>
 ## Features
 

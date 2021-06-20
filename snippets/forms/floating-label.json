@@ -1,0 +1,37 @@
+{
+    "Bootstrap v5 Floating Label Input": {
+        "prefix": "bs5-floating-label-input",
+        "body": [
+            "<div class=\"form-floating\">",
+            "\t<input type=\"${2:email|password|text|number}\" class=\"form-control\" id=\"${1:floatingInput}\" placeholder=\"${4:placeholder text}\">",
+            "\t<label for=\"${1:floatingInput}\">${3:Change this Floating text}</label>",
+            "</div>"
+        ],
+        "description": "Creates Bootstrap v5 Floating label in Input"
+    },
+    "Bootstrap v5 Floating Label Textareas": {
+        "prefix": "bs5-floating-label-textarea",
+        "body": [
+            "<div class=\"form-floating\">",
+            "\t<textarea class=\"form-control\" placeholder=\"${3:Leave a comment here}\" id=\"${1:floatingTextarea}\"></textarea>",
+            "\t<label for=\"${1:floatingTextarea}\">${2:Change this Floating text}</label>",
+            "</div>"
+        ],
+        "description": "Creates Bootstrap v5 Floating label in textarea"
+    },
+    "Bootstrap v5 Floating Label Select": {
+        "prefix": "bs5-floating-label-select",
+        "body": [
+            "<div class=\"form-floating\">",
+            "\t<select class=\"form-select\" id=\"${1:floatingSelect}\" aria-label=\"Floating label select example\">",
+                "\t\t<option selected>${3:Open this select menu}</option>",
+                "\t\t<option value=\"${4:One}\">${4:One}</option>",
+                "\t\t<option value=\"${5:Two}\">${5:Two}</option>",
+                "\t\t<option value=\"${6:Three}\">${6:Three}</option>",
+            "\t</select>",
+            "\t<label for=\"${1:floatingSelect}\">${2:Change this Floating text}</label>",
+            "</div>"
+        ],
+        "description": "Creates Bootstrap v5 Floating label in Select dropdowns"
+    }
+}

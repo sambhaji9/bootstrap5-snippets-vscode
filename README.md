@@ -134,6 +134,16 @@ Following are the list of available snippets
 | bs5-toggle-radio           | Toggle Button Radio             |
 
 <br>
+
+## Switch
+| Switch type                  | Description                     |
+| --------------------------   | ------------------------------- |
+| bs5-switch-default           | Default Switch                  |
+| bs5-switch-checked           | Checked Switch                  |
+| bs5-switch-disabled          | Disabled Switch                 |
+| bs5-switch-checked-disabled  | Checked Disabled Switch         |
+
+<br>
 ## Features
 
 Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.

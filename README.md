@@ -77,7 +77,7 @@ Following are the list of available snippets
 <br>
 
 ## Offcanvas
-| Offcanvas type                 | Description                           |
+| Offcanvas type                 | Description                          |
 | ----------------------------- | ------------------------------------- |
 | bs5-offcanvas-default         | Default Offcanvas                     |
 | bs5-offcanvas-target          | Offcanvas with target                 |
@@ -142,6 +142,16 @@ Following are the list of available snippets
 | bs5-switch-checked           | Checked Switch                  |
 | bs5-switch-disabled          | Disabled Switch                 |
 | bs5-switch-checked-disabled  | Checked Disabled Switch         |
+
+
+<br>
+
+## Floating Label
+| Floating Label type          | Description                     |
+| --------------------------   | ------------------------------- |
+| bs5-floating-label-input     | Floating Label Input            |
+| bs5-floating-label-textarea  | Floating Label Textarea         |
+| bs5-floating-label-select    | Floating Label Select           |
 
 <br>
 ## Features

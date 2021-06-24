@@ -151,4 +151,4 @@ Following are the list of available snippets
 | --------------------------   | ------------------------------- |
 | bs5-floating-label-input     | Floating Label Input            |
 | bs5-floating-label-textarea  | Floating Label Textarea         |
-| bs5-floating-label-select    | Floating Label Select           |
+| bs5-floating-label-select    | Floating Label Select           |`

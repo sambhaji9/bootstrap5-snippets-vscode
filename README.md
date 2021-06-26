@@ -22,6 +22,20 @@ Following are the list of available snippets
 
 <br>
 
+## Buttons
+| Button type                  | Description                   |
+| ---------------------------  | ----------------------------- |
+| bs5-button-default           | Default Button                |
+| bs5-button-outline           | Outline Button                |
+| bs5-button-Disabled          | Disabled Button               |
+| bs5-button-sizes             | Large or small buttons        |
+| bs5-button-toggle-default    | Default toggle buttons        |
+| bs5-button-active-toggle     | Active toggle buttons         |
+| bs5-button-disabled-toggle   | Disabled toggle buttons       |
+| bs5-link-button              | Link buttons                  |
+| bs5-link-disabled-button     | Disabled Link buttons         |
+| bs5-block-large-button       | Large Block buttons           |
+
 ## Badges
 | Badges type                 | Description                   |
 | --------------------------- | ----------------------------- |

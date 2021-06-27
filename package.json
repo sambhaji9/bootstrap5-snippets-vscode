@@ -72,6 +72,10 @@
                 "path": "./snippets/forms/floating-label.json"
             },
             {
+                "language": "html",
+                "path": "./snippets/components/close-button.json"
+            },
+            {
                 "language": "javascript",
                 "path": "./snippets/components/js-snippets.json"
             },

@@ -1,0 +1,30 @@
+{
+    "Bootstrap v5 Close button": {
+        "prefix": "bs5-close-button",
+        "body": [
+            "<button type=\"button\" class=\"btn-close\" aria-label=\"Close\"></button>"
+        ],
+        "description": "Creates Bootstrap v5 default Close button"
+    },
+    "Bootstrap v5 Disabled Close button": {
+        "prefix": "bs5-disabled-close-button",
+        "body": [
+            "<button type=\"button\" class=\"btn-close\" disabled aria-label=\"Close\"></button>"
+        ],
+        "description": "Creates Bootstrap v5 Disabled Close button"
+    },
+    "Bootstrap v5 White Close button": {
+        "prefix": "bs5-white-close-button",
+        "body": [
+            "<button type=\"button\" class=\"btn-close btn-close-white\" aria-label=\"Close\"></button>"
+        ],
+        "description": "Creates Bootstrap v5 White Close button"
+    },
+    "Bootstrap v5 Disabled White Close button": {
+        "prefix": "bs5-disabled-white-close-button",
+        "body": [
+            "<button type=\"button\" class=\"btn-close btn-close-white\" disabled aria-label=\"Close\"></button>"
+        ],
+        "description": "Creates Bootstrap v5 Disabled White Close button"
+    }
+}

@@ -166,3 +166,14 @@ Following are the list of available snippets
 | bs5-floating-label-input     | Floating Label Input            |
 | bs5-floating-label-textarea  | Floating Label Textarea         |
 | bs5-floating-label-select    | Floating Label Select           |`
+
+
+<br>
+
+## Close Button
+| Close Button type                | Description                   |
+| --------------------------       | ----------------------------- |
+| bs5-close-button                 | Default Close Button          |
+| bs5-disabled-close-button        | Disabled Close Button         |
+| bs5-white-close-button           | White Close Button            |
+| bs5-disabled-white-close-button  | Disabled White Close Button   |
